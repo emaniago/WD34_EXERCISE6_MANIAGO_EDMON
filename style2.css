@@ -1,0 +1,71 @@
+html {
+  font-family: 'Sono', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: normal;
+  background: url("") no-repeat;
+  background-size: cover;
+  margin: 30px 30px 30px 30px;
+}
+body{
+  box-sizing: border-box; width: auto;
+
+}
+h1{
+    box-sizing: border-box;
+}
+.topics{
+  box-sizing: border-box;
+  height: 350px;
+}
+/* Set additional styling options for the columns*/
+.column {
+    float: left;
+    width: 25%;
+}
+.row:after {    
+    display: table;
+    clear: both;
+}
+h1,h2,p{
+    border: "";     
+    color:#000000 ;
+    text-align: center;
+    box-sizing: border-box;
+}
+#imgleft{
+    float: left;
+}
+#img1{
+    float: right;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+li{
+display: list-item;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgb(255, 255, 255);
+}
+li{
+float: left;
+}
+li a{
+display: block;
+color: rgb(41, 26, 26);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.overflowSample{
+  width: cover;
+  height: 300px;
+  overflow-y: scroll;
+}
